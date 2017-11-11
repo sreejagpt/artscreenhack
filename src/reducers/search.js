@@ -3,7 +3,7 @@ import searchResults from '../data/searchResults.json';
 
 const initialState = {
   searchInput: '',
-  searchOutput: '',
+  searchOutput: [],
 };
 
 export default (state = initialState, action) => {
