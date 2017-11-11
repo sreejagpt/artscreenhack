@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Route } from 'react-router-dom';
+import SearchPage from './containers/SearchPage';
 import ArtworksPage from './containers/ArtworksPage';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <ArtworksPage />
-    );
-  }
-}
-
-export default App;
+export default () => (
+  <div>
+    <main>
+      <Route exact path="/" component={SearchPage} />
+      <Route exact path="/artworks" component={ArtworksPage} />
+    </main>
+  </div>
+);
