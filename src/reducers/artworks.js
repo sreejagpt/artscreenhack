@@ -1,3 +1,5 @@
+import { push } from 'react-router-redux';
+
 const initialState = [];
 
 export default (state = initialState, action) => {
@@ -5,4 +7,8 @@ export default (state = initialState, action) => {
     default:
       return state;
   }
+};
+
+export const viewPage = dispatch => artworkId => {
+  dispatch(push(`/artworks/${artworkId}`));
 };
