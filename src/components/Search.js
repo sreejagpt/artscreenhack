@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom';
+import { Link, Route, BrowserRouter as Router } from 'react-router-dom';
 import searchIcon from '../assets/searchIcon.png';
+import searchResults from '../assets/searchResults.json'
 
 class Search extends Component {
   constructor(props) {
@@ -16,12 +13,12 @@ class Search extends Component {
 
   render() {
     return (
-      <div>
-        <input type="text" name="search" value = {this.state.searchInput} onChange = {this.onInputChange}/>
-        <button onClick = {this.loadSearchPage}>
-          <img src={searchIcon} width='10px' height='10px'/>
-        </button>
-      </div>
+        <div>
+          <input type="text" name="search" value = {this.state.searchInput} onChange = {this.onInputChange}/>
+          <button onClick = {this.loadSearchPage}>
+            <img src={searchIcon} width='10px' height='10px'/>
+          </button>
+        </div>
     )
   }
 
@@ -31,8 +28,8 @@ class Search extends Component {
 
   loadSearchPage() {
     const input = this.state.searchInput
+    const output = searchResults[input]
   }
-
 }
 
 export default Search;
