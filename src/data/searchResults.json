@@ -1,24 +1,60 @@
 {
   "Stranger Things": [
     {
-      "Artist": "Artwork 1"
+      "id": "1",
+      "artist": "",
+      "shortTitle": "",
+      "description": "",
+      "artForm": "",
+      "startDate": "",
+      "endDate": ""
     },
     {
-      "Artist": "Happy Gilmore"
+      "id": "2",
+      "artist": "",
+      "shortTitle": "",
+      "description": "",
+      "artForm": "",
+      "startDate": "",
+      "endDate": ""
     },
     {
-      "Artist": "Kombucha and Happiness"
+      "id": "3",
+      "artist": "",
+      "shortTitle": "",
+      "description": "",
+      "artForm": "",
+      "startDate": "",
+      "endDate": ""
     }
   ],
   "Prisoner": [
     {
-      "Artist": "Fat"
+      "id": "4",
+      "artist": "",
+      "shortTitle": "",
+      "description": "",
+      "artForm": "",
+      "startDate": "",
+      "endDate": ""
     },
     {
-      "Artist": "Cat"
+      "id": "5",
+      "artist": "",
+      "shortTitle": "",
+      "description": "",
+      "artForm": "",
+      "startDate": "",
+      "endDate": ""
     },
     {
-      "Artist": "Sreeja"
+      "id": "6",
+      "artist": "",
+      "shortTitle": "",
+      "description": "",
+      "artForm": "",
+      "startDate": "",
+      "endDate": ""
     }
   ]
 }

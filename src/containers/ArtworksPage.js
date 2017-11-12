@@ -8,7 +8,7 @@ import { viewPage } from '../reducers/artworks';
 const ArtworksPage = ({ artworks, viewDetailedPage }) => {
   return (
     <div>
-      {artworks.map(aw => <ArtworkShort artwork={aw} key={aw.Artist} viewDetailedPage={viewDetailedPage} />)}
+      {artworks.map(aw => <ArtworkShort artwork={aw} key={aw.id} viewDetailedPage={viewDetailedPage} />)}
     </div>
   );
 };
