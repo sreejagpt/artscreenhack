@@ -11,10 +11,10 @@ const ArtWorkDetailed = (props) => {
     <div className="artworkdetails">
       <div className="artwork-description">
         <h2>{artwork.shortTitle}</h2>
-        <p>Description: {artwork.description}</p>
-        <p>Artist: {artwork.artist}</p>
-        <p>Art form: {artwork.artForm}</p>
-        <p>Website: {artwork.personalWebsite}</p>
+        <p><b>Description:</b> {artwork.description}</p>
+        <p><b>Artist:</b> {artwork.artist}</p>
+        <p><b>Art form:</b> {artwork.artForm}</p>
+        <p><b>Website:</b> {artwork.personalWebsite}</p>
         <button className="option">Option Me</button>
       </div>
     </div>);
