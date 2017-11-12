@@ -29,6 +29,7 @@ class SearchPage extends Component {
         type="text"
         className="Search"
         name="search"
+        autoComplete="off"
         placeholder="Get Inspired..."
         onKeyPress={this.loadSearchPage}
         onChange={this.onInputChange}/>
