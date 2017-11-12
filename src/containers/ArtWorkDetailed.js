@@ -15,7 +15,10 @@ const ArtWorkDetailed = (props) => {
         <p><b>Artist:</b> {artwork.artist}</p>
         <p><b>Art form:</b> {artwork.artForm}</p>
         <p><b>Website:</b> {artwork.personalWebsite}</p>
-        <button className="option">Option Me</button>
+        <div>
+          <p className="inline-trending"><b>Trending Now 🔥</b></p>
+          <button className="option">Option Me</button>
+        </div>
       </div>
     </div>);
 };
