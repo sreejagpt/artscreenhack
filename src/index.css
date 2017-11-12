@@ -12,11 +12,19 @@ body {
 input[type=text] {
   height: 30px;
   width: 130px;
+  font-size: 15px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
+  background-image: url('./assets/searchIcon.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  padding: 11px 54px 9px 55px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
 }
 
-/* When the input field gets focus, change its width to 100% */
+/* When the input field gets focus, change its width% */
 input[type=text]:focus {
     width: 50%;
 }
@@ -26,6 +34,7 @@ input[type=text]:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 button {

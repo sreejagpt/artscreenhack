@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { doSearch } from '../reducers/search';
 import searchIcon from '../assets/searchIcon.png';
+import logo from '../assets/metamorf.png';
 
 class SearchPage extends Component {
   constructor(props) {
@@ -14,14 +15,21 @@ class SearchPage extends Component {
 
   onInputChange = event => this.setState({ searchInput: event.target.value });
 
-  loadSearchPage = () => this.props.search(this.state.searchInput);
+  loadSearchPage = (e) => {
+     if (e.key === 'Enter') {
+       this.props.search(this.state.searchInput);
+     }
+  }
 
   render = () => (
     <div className="Aligner">
-      <input type="text" className="Search" name="search" placeholder="Get Inspired..." />
-      <button onClick={this.loadSearchPage}>
-        <img src={searchIcon} width="20px" height="20px" alt="" />
-      </button>
+      <img src={logo} width='30%'></img>
+      <input
+        type="text"
+        className="Search"
+        name="search"
+        placeholder="Get Inspired..."
+        onKeyPress={this.loadSearchPage}/>
     </div>
   );
 }
