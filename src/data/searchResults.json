@@ -1,60 +1,89 @@
 {
-  "Stranger Things": [
+  "blade runner": [
     {
       "id": "1",
-      "artist": "",
-      "shortTitle": "",
-      "description": "",
-      "artForm": "",
-      "startDate": "",
-      "endDate": ""
+      "artist": "Michael Candy",
+      "shortTitle": "Tachyon",
+      "description": "A self-organized colony of luminescent walking mechanical robot creatures - a foreign society where human participation is welcomed",
+      "artForm": "Interactive robotics project",
+      "email": "michaelcandy@gmail.com",
+      "personalWebsite": "Michaelcandy.com"
     },
     {
       "id": "2",
-      "artist": "",
-      "shortTitle": "",
-      "description": "",
-      "artForm": "",
-      "startDate": "",
-      "endDate": ""
+      "artist": "Cake Industries",
+      "shortTitle": "Voyages",
+      "description": "A series of surreal public mechatronic sculptural incursions inside the grounds of Luna Park Melbourne theme park inspired by its essence, exploring alternate realities and suspensions of disbelief.",
+      "artForm": "Public sculpture",
+      "email": "icing@cake.net.au",
+      "personalWebsite": "Cake.net.au"
     },
     {
       "id": "3",
-      "artist": "",
-      "shortTitle": "",
-      "description": "",
-      "artForm": "",
-      "startDate": "",
-      "endDate": ""
+      "artist": "Shopfront Arts",
+      "shortTitle": "Inside//Outside: Youth Identity in a Brave New World",
+      "description": "5 new works, inviting the audience to take a journey of discovery through live performance, interactive installations, digital art and film into the thoughts, ideas and opinions of young people.",
+      "artForm": "Multi-artform",
+      "email": "hello@shopfront.org.au",
+      "personalWebsite": "Shopfront.org.au"
     }
   ],
-  "Prisoner": [
+  "the handmaid’s tale": [
     {
       "id": "4",
-      "artist": "",
-      "shortTitle": "",
-      "description": "",
-      "artForm": "",
-      "startDate": "",
-      "endDate": ""
+      "artist": "Rachael Parsons",
+      "shortTitle": "Femel_Fissions",
+      "description": "Femel_Fissions traces the historical influence of women on scientific discovery and research through newly commissioned works from leading Australian and international artists. Featuring seven contemporary female art/science practitioners, Femel_Fissions will showcase works that have been created in response to ground-breaking discoveries by female scientists from the last three centuries, exploring the fields of neurology, biology, cytogenetics, psychology, primatology, and anatomy.",
+      "artForm": "Multi-artform exhibition",
+      "email": "Rachael.nerrada@gmail.com",
+      "personalWebsite": "rachaelnparsons.com"
     },
     {
       "id": "5",
-      "artist": "",
-      "shortTitle": "",
-      "description": "",
-      "artForm": "",
-      "startDate": "",
-      "endDate": ""
+      "artist": "Alex Martinis Roe",
+      "shortTitle": "To Become Two",
+      "description": "To Become Two is a theory-practice history project, tracing a particular genealogy of political practice among a number of different feminist communities. To Become Two (a project in process) is a series of six film installations, which can be shown individually or as a seven-channel film installation, including some sculptural, interior architectural and archival elements, as well as performances and workshops, and a book",
+      "artForm": "Visual art",
+      "email": "alexmartinisroe.gmail.com",
+      "personalWebsite": "alexmartinisroe.com"
     },
     {
       "id": "6",
-      "artist": "",
-      "shortTitle": "",
-      "description": "",
-      "artForm": "",
-      "startDate": "",
-      "endDate": ""
+      "artist": "Influx",
+      "shortTitle": "Animal",
+      "description": "Animal is a dark horror, a minute tale of epic proportions. In a remote town, two sisters hover on the edge of society. Dominated by their destructive mother and muted by the secret of a father not long buried, they begin a relentless quest to prepare for the predators circling outside.",
+      "artForm": "Collaborative/devised theatre",
+      "email": "",
+      "personalWebsite": "influxtheatre.com"
+    }
+  ],
+  "moonlight": [
+    {
+      "id": "7",
+      "artist": "ActNow Theatre for Social Change",
+      "shortTitle": "Zero Feet Away",
+      "description": "Following the rise of dating applications such as Tinder and Grindr, Zero Feet Away explores how we find intimacy in virtual spaces, and what actually happens in our heads our hearts and our bedrooms. Created by a team of professional and community young gay artists. This is innovative, provocative, inspiring and honest theatre not to be missed. Audience members became apart of this exciting work in progress interactive theatre experiment. They used their mobile phones to facilitate anonymous and safe conversation about sexuality, intimacy and identity, influencing the live performance.",
+      "artForm": "Theatre",
+      "email": "info@actnowtheatre.org.au",
+      "personalWebsite": "Actnowtheatre.org.au"
+    },
+    {
+      "id": "8",
+      "artist": "Elements Collective",
+      "shortTitle": "M.I.N.D.E.D",
+      "description": "Elements Collective bring us on an emotional journey through movement and character connection. Using their expertise in world class break-dancing and contemporary theatrics this show pushes the boundaries of hip-hop theatre with pristine acrobatics, intricate choreography and intense body awareness. The show takes us inside a mind full of thoughts and mixed emotions. Confronting Fear, Joy, Sadness and Frustration head on.",
+      "artForm": "Dance",
+      "email": "info@elementscollective.com.au",
+      "personalWebsite": "elementscollective.com.au"
+    },
+    {
+      "id": "9",
+      "artist": "Melissa Lucashenko",
+      "shortTitle": "Too Much Lip",
+      "description": "This novel is a kind of foray into the harder edges of Aboriginal life in country NSW, with a hillbilly sensibility. I wanted to write about the grassroots mob who are constantly living on the edge of things: the law, racist violence, various kinds of family implosions. I really strongly wanted to pen a high-energy antidote to the deathly depression which it’s easy for us to slide into in this racist, heterosexist country.",
+      "artForm": "Literature",
+      "email": "",
+      "personalWebsite": "melissalucashenko.com.au"
     }
   ]
 }
