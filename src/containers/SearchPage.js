@@ -17,10 +17,10 @@ class SearchPage extends Component {
   loadSearchPage = () => this.props.search(this.state.searchInput);
 
   render = () => (
-    <div>
-      <input type="text" name="search" value={this.state.searchInput} onChange={this.onInputChange} />
+    <div class="Aligner">
+      <input type="text" class="Search" name="search" placeholder="Get Inspired..."/>
       <button onClick={this.loadSearchPage}>
-        <img src={searchIcon} width="10px" height="10px" alt="" />
+          <img src={searchIcon} width="20px" height="20px" alt=""/>
       </button>
     </div>
   );

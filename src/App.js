@@ -6,11 +6,9 @@ import ArtWorkDetailed from './components/ArtWorkDetailed';
 import './App.css';
 
 export default () => (
-  <div>
-    <main>
-      <Route exact path="/" component={SearchPage} />
-      <Route exact path="/artworks" component={ArtworksPage} />
+  <main>
+    <Route exact path="/" component={SearchPage} />
+    <Route exact path="/artworks" component={ArtworksPage} />
       <Route path="/artworks/:id" component={ArtWorkDetailed }/>
-    </main>
-  </div>
+  </main>
 );
