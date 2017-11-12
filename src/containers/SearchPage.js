@@ -29,7 +29,8 @@ class SearchPage extends Component {
         className="Search"
         name="search"
         placeholder="Get Inspired..."
-        onKeyPress={this.loadSearchPage}/>
+        onKeyPress={this.loadSearchPage}
+        onChange={this.onInputChange}/>
     </div>
   );
 }
