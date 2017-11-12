@@ -42,3 +42,21 @@ button {
   width: 40px;
   border: none;
 }
+
+.artworkdetails {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.artwork-description {
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.option {
+  color: "purple";
+}

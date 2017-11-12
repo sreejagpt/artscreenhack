@@ -6,7 +6,7 @@ const ArtworkShort = ({ artwork }) => {
     <div>
       <h2>{artwork.artist}</h2>
       <p>{artwork.description}</p>
-      <Link href="/#" to={`/artwork/${artwork.id}`}>View Item</Link>
+      <Link href="/#" to={`/artworks/${artwork.id}`}>View Item</Link>
     </div>);
 };
 
