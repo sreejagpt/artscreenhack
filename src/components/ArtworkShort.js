@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const ArtworkShort = ({ artwork }) => {
   return (
     <div>
+      <Link href="/#" to={`/artwork/${artwork.id}`}><img src={artwork.image} width='20%'></img></Link>
       <h2>{artwork.artist}</h2>
       <p>{artwork.description}</p>
-      <Link href="/#" to={`/artworks/${artwork.id}`}>View Item</Link>
     </div>);
 };
 
