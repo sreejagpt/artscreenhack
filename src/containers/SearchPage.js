@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { doSearch } from '../reducers/search';
 import logo from '../assets/metamorf.png';
+import areaInfo from '../assets/area.png';
+
 
 class SearchPage extends Component {
   constructor(props) {
@@ -29,8 +31,8 @@ class SearchPage extends Component {
         name="search"
         placeholder="Get Inspired..."
         onKeyPress={this.loadSearchPage}
-        onChange={this.onInputChange}
-      />
+        onChange={this.onInputChange}/>
+      <img src={areaInfo} width="70%"></img>
     </div>
   );
 }
