@@ -10,13 +10,13 @@ class SearchPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchInput: '',
+      searchInput: ''
     };
   }
 
   onInputChange = event => this.setState({ searchInput: event.target.value });
 
-  loadSearchPage = (e) => {
+  performSearch = (e) => {
     if (e.key === 'Enter') {
       this.props.search(this.state.searchInput.toLowerCase());
     }
@@ -31,8 +31,9 @@ class SearchPage extends Component {
         name="search"
         autoComplete="off"
         placeholder="Get Inspired..."
-        onKeyPress={this.loadSearchPage}
+        onKeyPress={this.performSearch}
         onChange={this.onInputChange}/>
+      <div className="hintText">(Currently supported terms: the handmaid's tale, moonlight, blade runner)</div>
       <img src={areaInfo} width="70%" alt="Australian art near you."></img>
     </div>
   );

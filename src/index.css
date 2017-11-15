@@ -43,6 +43,12 @@ button {
   border: none;
 }
 
+.hintText {
+  padding-top: 10px;
+  font-size: 10px;
+  font-color: light-grey;
+}
+
 .artworkdetails {
   height: 100%;
   display: flex;
