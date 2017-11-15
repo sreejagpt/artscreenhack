@@ -24,7 +24,7 @@ class SearchPage extends Component {
 
   render = () => (
     <div className="Aligner">
-      <img src={logo} width="30%" alt="" />
+      <img src={logo} width="30%" alt="Metamorf. A machine learning smart bridge to help you find original Australian content to adapt." />
       <input
         type="text"
         className="Search"
@@ -33,7 +33,7 @@ class SearchPage extends Component {
         placeholder="Get Inspired..."
         onKeyPress={this.loadSearchPage}
         onChange={this.onInputChange}/>
-      <img src={areaInfo} width="70%"></img>
+      <img src={areaInfo} width="70%" alt="Australian art near you."></img>
     </div>
   );
 }

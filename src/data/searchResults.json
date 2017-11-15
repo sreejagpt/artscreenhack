@@ -8,7 +8,7 @@
       "artForm": "Interactive robotics project",
       "email": "michaelcandy@gmail.com",
       "personalWebsite": "Michaelcandy.com",
-      "image": ""
+      "image": "artworks/bladerunner/bladerunner0.png"
     },
     {
       "id": "2",
@@ -18,7 +18,7 @@
       "artForm": "Public sculpture",
       "email": "icing@cake.net.au",
       "personalWebsite": "Cake.net.au",
-      "image": ""
+      "image": "artworks/bladerunner/bladerunner1.png"
     },
     {
       "id": "3",
@@ -28,7 +28,7 @@
       "artForm": "Multi-artform",
       "email": "hello@shopfront.org.au",
       "personalWebsite": "Shopfront.org.au",
-      "image": ""
+      "image": "artworks/bladerunner/bladerunner2.png"
     }
   ],
   "the handmaid's tale": [
