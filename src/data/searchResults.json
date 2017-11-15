@@ -40,7 +40,7 @@
       "artForm": "Multi-artform exhibition",
       "email": "Rachael.nerrada@gmail.com",
       "personalWebsite": "rachaelnparsons.com",
-      "image": "http://localhost:3000/artworks/handmaid/handmaid0.png"
+      "image": "artworks/handmaid/handmaid0.png"
     },
     {
       "id": "5",
@@ -50,7 +50,7 @@
       "artForm": "Visual art",
       "email": "alexmartinisroe.gmail.com",
       "personalWebsite": "alexmartinisroe.com",
-      "image": "http://localhost:3000/artworks/handmaid/handmaid1.JPG"
+      "image": "artworks/handmaid/handmaid1.JPG"
     },
     {
       "id": "6",
@@ -60,7 +60,7 @@
       "artForm": "Collaborative/devised theatre",
       "email": "",
       "personalWebsite": "influxtheatre.com",
-      "image": "http://localhost:3000/artworks/handmaid/handmaid2.jpg"
+      "image": "artworks/handmaid/handmaid2.jpg"
     }
   ],
   "moonlight": [
@@ -72,7 +72,7 @@
       "artForm": "Theatre",
       "email": "info@actnowtheatre.org.au",
       "personalWebsite": "Actnowtheatre.org.au",
-      "image": "http://localhost:3000/artworks/moonlight/moonlight0.jpg"
+      "image": "artworks/moonlight/moonlight0.jpg"
     },
     {
       "id": "8",
@@ -82,7 +82,7 @@
       "artForm": "Dance",
       "email": "info@elementscollective.com.au",
       "personalWebsite": "elementscollective.com.au",
-      "image": "http://localhost:3000/artworks/moonlight/moonlight1.jpg"
+      "image": "artworks/moonlight/moonlight1.jpg"
     },
     {
       "id": "9",
@@ -92,7 +92,7 @@
       "artForm": "Literature",
       "email": "",
       "personalWebsite": "melissalucashenko.com.au",
-      "image": "http://localhost:3000/artworks/moonlight/moonlight2.jpg"
+      "image": "artworks/moonlight/moonlight2.jpg"
     }
   ]
 }
